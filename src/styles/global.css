@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-display: block;
+    src: url("/fonts/Poppins-Regular.ttf") format("truetype");
+  }
+
+  html,
+  body {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  * {
+    font-weight: inherit;
+    font-size: inherit;
+  }
+
+  h1 {
+    font-size: 90px;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  h3 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  nav {
+    font-size: 20px;
+  }
+
+  body {
+    font-size: 1.125rem;
+  }
+}
