@@ -1,5 +1,6 @@
 {
   "name": "dora-landing",
+  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
@@ -31,6 +32,7 @@
     "prettier": "^2.8.4",
     "prettier-plugin-astro": "^0.8.0",
     "prettier-plugin-svelte": "^2.9.0",
-    "svelte-eslint-parser": "^0.23.0"
+    "svelte-eslint-parser": "^0.23.0",
+    "svelte-preprocess": "^5.0.1"
   }
 }
