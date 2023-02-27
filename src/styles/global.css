@@ -11,6 +11,14 @@
     src: url("/fonts/Poppins-Regular.ttf") format("truetype");
   }
 
+  @font-face {
+    font-family: "Studio Feixen Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-display: block;
+    src: url("/fonts/StudioFeixenSans-Regular.otf") format("opentype");
+  }
+
   html,
   body {
     @apply w-screen h-screen;

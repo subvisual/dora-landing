@@ -21,6 +21,7 @@ module.exports = {
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        studio: ["Studio Feixen Sans", "sans-serif"],
       },
     },
   },
