@@ -1,14 +1,13 @@
 ---
 import Header from "../components/Header.svelte";
+import Hero from "../components/Hero.svelte";
 import Layout from "../layouts/Layout.astro";
 import "../styles/global.css";
 ---
 
-<Layout title="Dora, the Tipset Explorer">
+<Layout title="Dora, the TipsetExplorer">
   <Header />
-  <main>
-    <h1 class="text-white">
-      <span class="font-poppins text-yellow">Dora</span>, the TipsetExplorer
-    </h1>
+  <main class="px-4 sm:px-16">
+    <Hero />
   </main>
 </Layout>
