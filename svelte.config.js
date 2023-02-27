@@ -1,5 +1,11 @@
-import { vitePreprocess } from '@astrojs/svelte';
+import preprocess from "svelte-preprocess";
+import { vitePreprocess } from "@astrojs/svelte";
 
 export default {
-	preprocess: vitePreprocess(),
+  preprocess: [
+    preprocess({
+      postcss: true,
+    }),
+    vitePreprocess(),
+  ],
 };
