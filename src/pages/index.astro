@@ -8,6 +8,7 @@ import BlocksMain from "../components/BlocksMain.svelte";
 import Button from "../components/Button.svelte";
 import "../styles/global.css";
 import FeaturesGrid from "../components/FeaturesGrid.svelte";
+import BlocksHalf from "../components/BlocksHalf.svelte";
 ---
 
 <Layout title="Dora, the TipsetExplorer">
@@ -42,6 +43,32 @@ import FeaturesGrid from "../components/FeaturesGrid.svelte";
         > page.
       </p>
       <FeaturesGrid />
+    </Section>
+    <Section class="md:text-left">
+      <div class="md:flex gap-20 lg:gap-36">
+        <div class="md:w-3/5">
+          <h2>Playground</h2>
+          <p class="mb-8">
+            Explore our playground, where you can interact with the Dora's code and check what'd be
+            returned for that Endpoind. <a
+              href="https://fly.io/"
+              target="_blank"
+              rel="noopener"
+              >Fly.io</a
+            > is of the simplest tool, where you can deploy your version. Alternatively, you can choose
+            other options that best fits your needs and resources.
+          </p>
+          <Button
+            href="/"
+            class="w-fit mx-auto md:mx-0"
+          >
+            Go to playground
+          </Button>
+        </div>
+        <div class="lg:shrink-0 self-center hidden md:block">
+          <BlocksHalf />
+        </div>
+      </div>
     </Section>
   </main>
   <Footer />
