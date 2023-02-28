@@ -9,6 +9,7 @@ import Button from "../components/Button.svelte";
 import "../styles/global.css";
 import FeaturesGrid from "../components/FeaturesGrid.svelte";
 import BlocksHalf from "../components/BlocksHalf.svelte";
+import MechanismDiagram from "../components/MechanismDiagram.svelte";
 ---
 
 <Layout title="Dora, the TipsetExplorer">
@@ -69,6 +70,26 @@ import BlocksHalf from "../components/BlocksHalf.svelte";
           <BlocksHalf />
         </div>
       </div>
+    </Section>
+    <Section>
+      <h2>Mechanism</h2>
+      <figure class="w-fit mx-auto">
+        <figcaption class="mb-6 md:mb-10">Dora handlers</figcaption>
+        <MechanismDiagram class="h-min" />
+      </figure>
+    </Section>
+    <Section>
+      <h2>Let's talk!</h2>
+      <p class="mb-8">
+        If you're interested in joining forces with us and develop a project further, we'd love to
+        hear from you. Let's work together to create something great!
+      </p>
+      <Button
+        class="w-fit mx-auto"
+        href="mailto:contact@finiam.com"
+      >
+        Contact us
+      </Button>
     </Section>
   </main>
   <Footer />
