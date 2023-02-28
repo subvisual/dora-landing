@@ -4,7 +4,7 @@
 </script>
 
 <a
-  {...$$restProps}
+  {...$$props}
   {href}
   class:header
 >

@@ -8,8 +8,9 @@ module.exports = {
       lg: "1.25rem",
       xl: "1.5rem",
       "2xl": "2rem",
-      "3xl": "3.75rem",
-      "4xl": "5.625rem",
+      "3xl": "2.75rem",
+      "4xl": "3.75rem",
+      "5xl": "5.625rem",
     },
     extend: {
       colors: {

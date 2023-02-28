@@ -12,6 +12,14 @@
   }
 
   @font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-display: block;
+    src: url("/fonts/Poppins-SemiBold.ttf") format("truetype");
+  }
+
+  @font-face {
     font-family: "Studio Feixen Sans";
     font-style: normal;
     font-weight: normal;
@@ -25,11 +33,11 @@
   }
 
   h1 {
-    @apply text-4xl font-bold leading-none;
+    @apply text-5xl font-bold leading-none;
   }
 
   h2 {
-    @apply text-2xl md:text-3xl font-bold leading-normal;
+    @apply text-3xl md:text-4xl font-bold leading-normal;
   }
 
   h3 {
@@ -41,7 +49,7 @@
   }
 
   body {
-    @apply text-sm md:text-base leading-7;
+    @apply text-sm md:text-base leading-relaxed sm:leading-8;
   }
 
   svg {
