@@ -2,7 +2,7 @@
   import Button from "./Button.svelte";
 </script>
 
-<div class="pt-20 lg:pt-40 pb-20">
+<div class="pt-20 lg:pt-40 pb-6 sm:pb-20">
   <div class="w-min mx-auto flex flex-col gap-6 text-center">
     <div class="flex flex-col gap-12">
       <h1 class="text-white sm:px-6 title">

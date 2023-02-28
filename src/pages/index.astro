@@ -6,16 +6,25 @@ import Layout from "../layouts/Layout.astro";
 import Section from "../components/Section.svelte";
 import BlocksMain from "../components/BlocksMain.svelte";
 import Button from "../components/Button.svelte";
-import "../styles/global.css";
 import FeaturesGrid from "../components/FeaturesGrid.svelte";
 import BlocksHalf from "../components/BlocksHalf.svelte";
 import MechanismDiagram from "../components/MechanismDiagram.svelte";
+import DoraFVM from "../components/DoraFVM.svelte";
+import "../styles/global.css";
 ---
 
 <Layout title="Dora, the TipsetExplorer">
   <Header />
   <Hero />
   <main class="px-4 sm:px-16">
+    <Section class="w-fit mx-auto">
+      <figure class="sm:mb-4 md:mb-10">
+        <DoraFVM />
+      </figure>
+      <p class="w-4/5 mx-auto"
+        >Dora is the first Event indexer working on the Filecoin Virtual Machine.</p
+      >
+    </Section>
     <Section class="md:w-3/4 mx-auto">
       <h2>What does it solve</h2>
       <p class="mb-12 md:mb-24">
