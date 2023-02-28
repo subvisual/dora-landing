@@ -7,6 +7,7 @@ import Section from "../components/Section.svelte";
 import BlocksMain from "../components/BlocksMain.svelte";
 import Button from "../components/Button.svelte";
 import "../styles/global.css";
+import FeaturesGrid from "../components/FeaturesGrid.svelte";
 ---
 
 <Layout title="Dora, the TipsetExplorer">
@@ -27,6 +28,20 @@ import "../styles/global.css";
       <figure class="w-4/5 max-w-fit mx-auto">
         <BlocksMain />
       </figure>
+    </Section>
+    <Section>
+      <h2>Features</h2>
+      <p class="mb-10 md:mb-12 md:w-3/4 mx-auto">
+        Here are the features that have been currently deployed, you can find more information about
+        the technical details on our <a
+          class="underline"
+          href="https://github.com/finiam/dora-the-tipset-explorer"
+          target="_blank"
+          rel="noopener"
+          >GitHub</a
+        > page.
+      </p>
+      <FeaturesGrid />
     </Section>
   </main>
   <Footer />
