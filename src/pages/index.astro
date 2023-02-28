@@ -17,7 +17,10 @@ import "../styles/global.css";
   <Header />
   <Hero />
   <main class="px-4 sm:px-16">
-    <Section class="w-fit mx-auto">
+    <Section
+      class="w-fit mx-auto"
+      id="fvm"
+    >
       <figure class="sm:mb-4 md:mb-10">
         <DoraFVM />
       </figure>
@@ -25,7 +28,10 @@ import "../styles/global.css";
         >Dora is the first Event indexer working on the Filecoin Virtual Machine.</p
       >
     </Section>
-    <Section class="md:w-3/4 mx-auto">
+    <Section
+      class="md:w-3/4 mx-auto"
+      id="solutions"
+    >
       <h2>What does it solve</h2>
       <p class="mb-12 md:mb-24">
         Indexing blockchain events is crucial for dApps as it enables quick and efficient access to
@@ -40,7 +46,7 @@ import "../styles/global.css";
         <BlocksMain />
       </figure>
     </Section>
-    <Section>
+    <Section id="features">
       <h2>Features</h2>
       <p class="mb-10 md:mb-12 md:w-3/4 mx-auto">
         Here are the features that have been currently deployed, you can find more information about
@@ -54,7 +60,10 @@ import "../styles/global.css";
       </p>
       <FeaturesGrid client:media="(max-width: 768px)" />
     </Section>
-    <Section class="md:text-left">
+    <Section
+      class="md:text-left"
+      id="playground"
+    >
       <div class="md:flex gap-20 lg:gap-36">
         <div class="md:w-3/5">
           <h2>Playground</h2>
@@ -80,14 +89,14 @@ import "../styles/global.css";
         </div>
       </div>
     </Section>
-    <Section>
+    <Section id="mechanism">
       <h2>Mechanism</h2>
       <figure class="w-fit mx-auto">
         <figcaption class="mb-6 md:mb-10">Dora handlers</figcaption>
         <MechanismDiagram class="h-min" />
       </figure>
     </Section>
-    <Section>
+    <Section id="contact">
       <h2>Let's talk!</h2>
       <p class="mb-8">
         If you're interested in joining forces with us and develop a project further, we'd love to
