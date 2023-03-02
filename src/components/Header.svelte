@@ -21,7 +21,7 @@
   </nav>
   <Button
     header
-    href="/">Go to playground</Button
+    href="https://dora-the-tipset-explorer.fly.dev/">Go to playground</Button
   >
 </header>
 
