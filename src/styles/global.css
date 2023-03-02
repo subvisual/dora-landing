@@ -45,7 +45,7 @@
   }
 
   nav {
-    @apply text-lg md:text-xl;
+    @apply text-lg xl:text-xl;
   }
 
   body {

@@ -21,6 +21,6 @@
   }
 
   a.header {
-    @apply bg-transparent border border-yellow text-yellow py-2 px-5 sm:bg-yellow sm:text-black sm:border-none sm:py-3 sm:px-6;
+    @apply py-2 px-5 sm:py-3 sm:px-6;
   }
 </style>
