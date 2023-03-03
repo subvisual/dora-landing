@@ -14,7 +14,16 @@
       </p>
     </div>
     <div class="flex flex-col gap-12">
-      <p class="text-lg md:text-xl">🛸 Filecoin & IPFS — 🥇 FVM Spaceships category</p>
+      <p class="text-lg md:text-xl">
+        Winner at
+        <a
+          href="https://ethglobal.com/events/spacewarp/prizes"
+          target="_blank"
+          rel="noreferrer noopener">FVM Space Warp</a
+        >
+        <br />
+        🛸 Filecoin & IPFS — 🥇 FVM Spaceships category
+      </p>
       <div class="flex flex-wrap gap-8 justify-center">
         <Button href="/">See on GitHub</Button>
         <Button href="/">See on ETHGlobal</Button>
