@@ -17,6 +17,7 @@
       <p class="text-lg md:text-xl">
         Winner at
         <a
+          class="underline decoration-[0.4px]"
           href="https://ethglobal.com/events/spacewarp/prizes"
           target="_blank"
           rel="noreferrer noopener">FVM Space Warp</a
