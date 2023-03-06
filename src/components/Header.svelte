@@ -13,15 +13,15 @@
     <DoraLogo />
   </a>
   <nav class="hidden gap-2 lg:flex">
-    <a href="/">Solutions</a>
-    <a href="/">Features</a>
-    <a href="/">Mechanism</a>
-    <a href="/">Future</a>
-    <a href="/">Contact</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#features">Features</a>
+    <a href="#playground">Playground</a>
+    <a href="#mechanism">Mechanism</a>
+    <a href="#contact">Contact</a>
   </nav>
   <Button
     header
-    href="/">Go to playground</Button
+    href="https://dora-the-tipset-explorer.fly.dev/">Go to playground</Button
   >
 </header>
 

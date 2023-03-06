@@ -3,13 +3,120 @@ import Header from "../components/Header.svelte";
 import Hero from "../components/Hero.svelte";
 import Footer from "../components/Footer.svelte";
 import Layout from "../layouts/Layout.astro";
+import Section from "../components/Section.svelte";
+import BlocksMain from "../components/BlocksMain.svelte";
+import Button from "../components/Button.svelte";
+import FeaturesGrid from "../components/FeaturesGrid.svelte";
+import BlocksHalf from "../components/BlocksHalf.svelte";
+import MechanismDiagram from "../components/MechanismDiagram.svelte";
+import DoraFVM from "../components/DoraFVM.svelte";
 import "../styles/global.css";
 ---
 
 <Layout>
   <Header />
+  <Hero />
   <main class="px-4 sm:px-16">
-    <Hero />
-    <Footer />
+    <Section
+      class="w-fit mx-auto"
+      id="fvm"
+    >
+      <figure class="sm:mb-4 md:mb-10">
+        <DoraFVM />
+      </figure>
+      <p class="w-4/5 mx-auto">
+        Dora is the first Event indexer working on the Filecoin Virtual Machine.
+      </p>
+    </Section>
+    <Section
+      class="md:w-3/4 mx-auto"
+      id="solutions"
+    >
+      <h2>What does it solve</h2>
+      <p class="mb-12 md:mb-24">
+        Indexing blockchain events is crucial for dApps as it enables quick and efficient access to
+        relevant data stored on the blockchain, which is required for executing Smart Contracts and
+        providing a seamless user experience.
+        <br />
+        <br />
+        Without indexing, the process of searching and retrieving data from the blockchain would be slow
+        and cumbersome, negatively impacting the functionality and usability of dApps.
+      </p>
+      <figure class="w-4/5 max-w-fit mx-auto">
+        <BlocksMain />
+      </figure>
+    </Section>
+    <Section id="features">
+      <h2>Features</h2>
+      <p class="mb-10 md:mb-12 md:w-3/4 mx-auto">
+        Here are the features that are currently deployed, you can find more information about the
+        technical details
+        <a
+          class="underline"
+          href="https://github.com/finiam/dora-the-tipset-explorer"
+          target="_blank"
+          rel="noopener"
+        >
+          here</a
+        >.
+      </p>
+      <FeaturesGrid client:media="(max-width: 768px)" />
+    </Section>
+    <Section
+      class="md:text-left"
+      id="playground"
+    >
+      <div class="md:flex gap-20 lg:gap-36 justify-center">
+        <div class="md:w-3/5">
+          <h2>Playground</h2>
+          <p class="mb-8">
+            Explore our playground, where you can interact with an example Dora app and check what'd
+            be returned for that Endpoint.
+            <br />
+            <br />
+            <a
+              class="underline"
+              href="https://fly.io/"
+              target="_blank"
+              rel="noopener"
+              >Fly.io</a
+            >
+            is our suggested service for your custom deployment, as we already have all the necessary
+            configuration files. Alternatively, you can choose other options that best fit your needs
+            and resources.
+          </p>
+          <Button
+            href="https://dora-the-tipset-explorer.fly.dev/"
+            class="w-fit mx-auto md:mx-0"
+          >
+            Go to playground
+          </Button>
+        </div>
+        <div class="lg:shrink-0 self-center hidden md:block">
+          <BlocksHalf />
+        </div>
+      </div>
+    </Section>
+    <Section id="mechanism">
+      <h2>Mechanism</h2>
+      <figure class="w-fit mx-auto">
+        <figcaption class="mb-6 md:mb-10">Dora handlers</figcaption>
+        <MechanismDiagram class="h-min" />
+      </figure>
+    </Section>
+    <Section id="contact">
+      <h2>Let's talk!</h2>
+      <p class="mb-8 md:w-3/4 mx-auto">
+        If you're interested in joining forces with us and develop a project further, we'd love to
+        hear from you. Let's work together to create something great!
+      </p>
+      <Button
+        class="w-fit mx-auto"
+        href="mailto:contact@finiam.com"
+      >
+        Contact us
+      </Button>
+    </Section>
   </main>
+  <Footer />
 </Layout>

@@ -2,7 +2,7 @@
   import Button from "./Button.svelte";
 </script>
 
-<div class="pt-20 lg:pt-40 pb-20">
+<div class="pt-20 lg:pt-40 pb-6 sm:pb-20">
   <div class="w-min mx-auto flex flex-col gap-6 text-center">
     <div class="flex flex-col gap-12">
       <h1 class="text-white sm:px-6 title">
@@ -14,7 +14,17 @@
       </p>
     </div>
     <div class="flex flex-col gap-12">
-      <p class="text-lg md:text-xl">🛸 Filecoin & IPFS — 🥇 FVM Spaceships category</p>
+      <p class="text-lg md:text-xl">
+        Winner at
+        <a
+          class="underline decoration-[0.4px]"
+          href="https://ethglobal.com/events/spacewarp/prizes"
+          target="_blank"
+          rel="noreferrer noopener">FVM Space Warp</a
+        >
+        <br />
+        🛸 Filecoin & IPFS — 🥇 FVM Spaceships category
+      </p>
       <div class="flex flex-wrap gap-8 justify-center">
         <Button href="/">See on GitHub</Button>
         <Button href="/">See on ETHGlobal</Button>
