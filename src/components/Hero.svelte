@@ -26,8 +26,16 @@
         🛸 Filecoin & IPFS — 🥇 FVM Spaceships category
       </p>
       <div class="flex flex-wrap gap-8 justify-center">
-        <Button href="/">See on GitHub</Button>
-        <Button href="/">See on ETHGlobal</Button>
+        <Button
+          href="https://github.com/finiam/dora-the-tipset-explorer"
+          target="_blank"
+          rel="noopener">See on GitHub</Button
+        >
+        <Button
+          href="https://ethglobal.com/showcase/dora-the-tipsetexplorer-uwg3o"
+          target="_blank"
+          rel="noopener">See on ETHGlobal</Button
+        >
       </div>
     </div>
   </div>
