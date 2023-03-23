@@ -12,17 +12,21 @@
   >
     <DoraLogo />
   </a>
-  <nav class="hidden gap-2 lg:flex">
-    <a href="#solutions">Solutions</a>
-    <a href="#features">Features</a>
-    <a href="#playground">Playground</a>
-    <a href="#mechanism">Mechanism</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <Button
-    header
-    href="https://dora-the-tipset-explorer.fly.dev/">Go to playground</Button
-  >
+  <div class="flex gap-5 items-center">
+    <nav class="hidden gap-2 lg:flex">
+      <a href="#solutions">Solutions</a>
+      <a href="#features">Features</a>
+      <a href="#playground">Playground</a>
+      <a href="#mechanism">Mechanism</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <Button
+      header
+      href="https://dora-the-tipset-explorer.fly.dev/"
+    >
+      Go to playground
+    </Button>
+  </div>
 </header>
 
 <style>
