@@ -25,7 +25,9 @@
     <button
       class="w-fit mx-auto p-2"
       on:click={toggleShow}
-      type="button">{@html showAll ? "&minus; Show less" : "&plus; Show more"}</button
+      type="button"
     >
+      {@html showAll ? "&minus; Show less" : "&plus; Show more"}
+    </button>
   </div>
 </div>
